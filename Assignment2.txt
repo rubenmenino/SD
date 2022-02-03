@@ -1,0 +1,14 @@
+entidades vao ter um stub com os mesmo metodos das shared regions
+
+envio de uma mensagem para as shared regions (do stub - entidade)
+
+sockets para enviar mensagens
+
+shared regions recebe mensagem (com o metodo para envocar e args), descodifica e executa o metodo
+
+
+se cliente envia mensagem para o servidor
+
+serializar as mensagens
+
+por cada mensagem, um socket
